@@ -3,8 +3,9 @@
 }
 
 .button {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(33, 33, 33);
     border: none;
+    border-radius: 2px;
     color: rgb(46, 46, 46);
     padding: 5px 5px;
     text-align: center;
