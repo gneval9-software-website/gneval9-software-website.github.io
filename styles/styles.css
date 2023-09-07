@@ -15,6 +15,7 @@
 
 
 .button {
+    transition: 500ms;
     background-color: rgb(30, 30, 30);
     border: color(srgb rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255));
     border-radius: 4px;
@@ -29,6 +30,7 @@
   }
 
   a:hover {
+    transition: 500ms;
     background-color: rgb(60, 60, 60);
   }
 
