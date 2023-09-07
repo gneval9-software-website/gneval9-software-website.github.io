@@ -30,7 +30,7 @@
   }
 
   a:hover {
-    transition: 500ms;
+    transition: 400ms;
     background-color: rgb(60, 60, 60);
   }
 
