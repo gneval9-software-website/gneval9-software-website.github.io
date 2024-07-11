@@ -18,6 +18,17 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.bunny.net">
 <link href="https://fonts.bunny.net/css?family=aldrich:400" rel="stylesheet" />
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentDate = new Date();
+            const specialDate = new Date(2023, 7, 27); // Los meses en JavaScript son 0-indexados (enero es 0)
+            const titleElement = document.querySelector('h1.title');
+            
+            if (currentDate.toDateString() === specialDate.toDateString()) {
+                titleElement.innerHTML = '🎂 Gneval9 Software Website 🎂';
+            }
+        });
+    </script>
 </head>
 <body background="https://res.cloudinary.com/ddbqjhu9m/image/upload/v1692711591/a8iuiyhouyr8prfmjhpm.png" text="white">
     <h1 align="center" class="title">Gneval9 Software Website</h1>
