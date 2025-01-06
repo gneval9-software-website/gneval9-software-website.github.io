@@ -21,10 +21,10 @@
      <script>
         document.addEventListener('DOMContentLoaded', function() {
             const currentDate = new Date();
-            const specialDate = new Date(2023, 7, 27); // Los meses en JavaScript son 0-indexados (enero es 0)
             const titleElement = document.querySelector('h1.title');
             
-            if (currentDate.toDateString() === specialDate.toDateString()) {
+            // Comprobar si es 27 de agosto (mes 7 porque es 0-indexado)
+            if (currentDate.getDate() === 6 && currentDate.getMonth() === 0) {
                 titleElement.innerHTML = '🎂 Gneval9 Software Website 🎂';
             }
         });
